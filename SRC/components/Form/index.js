@@ -1,6 +1,5 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { TextInput } from "react-native-web";
+import { View, Text, TextInput, Button } from "react-native";
 
 export default function Form(){
     return(
@@ -11,11 +10,18 @@ export default function Form(){
                 placeholder="Ex. 1.75'"
                 keyboardType="numeric"    
                 />
-                <Text>Altura</Text>
+                <Text>peso</Text>
                 <TextInput
                 placeholder="75.865"
                 keyboardType="numeric"
                 />
+                <Button
+                onpress={validation()}              
+                title="Calcular IMC"
+                color= "#61dafb"
+                />
+
+            
             </View>
         </View>   
 
