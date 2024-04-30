@@ -6,7 +6,7 @@ export default function Title(){
 
     return(
         <View>
-
+<Text>kjkjjkj</Text>
          </View>   
 
 

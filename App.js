@@ -1,15 +1,18 @@
 
 import { StyleSheet, Text, View } from 'react-native';
-import Title from './SRC/components/title';
-import Main from './SRC/components/Main';
+import Title from './SRC/components/Title';
+import Form from './SRC/components/Form';
+
+
+
 
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <Title/>
-     <Main/>
+<Title></Title>
+<Form/>
     </View>
 
   );
